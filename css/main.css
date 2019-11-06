@@ -1,15 +1,20 @@
 /* Optional, include a web font  */
-@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,500,500i,600,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i');
 
 /* The html and body selectors below set the base font for the entire page */
 html {font-size: 1em;}
 
+
 body {
-  font-family: 'Gentium Book Basic', serif;
-  font-weight: 400;
+  font-family: font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
   line-height: 1.5;
   color: #333;
+  background-color:aliceblue;
+    padding: 4em;
+    
+
   
 /*   there are other ways to do this but it's good to remember not to let text run right up to the edge of borders or color changes, images etc.' */
 /*   padding: 1em; */
@@ -27,20 +32,23 @@ p, li {
 /* Base Styling for headings  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* For each of your headings at minimum set the margin, size, line-height. Adjust font-weight and other properties as needed. */
 
 h1 {
-  font-size: 5.063em;
-  line-height: 1;
+  font-size: 4em;
+  line-height: ;
   margin: 0 0 0.5em 0;
-    text-align: center;
+  text-align:center;
+font-family: 'Montserrat', sans-serif;
+
+
 }
 
 h2 {
-  font-size: 3.375em;
+  font-size: 3em;
   line-height: 1.2;
   margin: 1.5em 0 0.5em 0;
 }
@@ -74,7 +82,120 @@ h6 {
 
 .nav li{
     display: inline;
-    list-style-type: none;
     padding-right: 20px;
-   align-content: center;
+    float: left;
+    font-size: 1.5em;
+    }
+.nav ul{
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #0db9f2;
+    float: left;
+    width: 100%;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+.nav ul li a: hover{
+    background-color: #369;
+    color: #fff;
+}
+.nav ul li a.current {
+    background-color: #369;
+    color: #fff;
+}
+   
+.StudySkills{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-gap: 10px;
+  
+}
+.skills{
+  margin:2%;
+  padding:2%;
+  border:1px solid #000;
+}
+
+.tagline{
+    font-size: 2.5em;
+    text-align:center;
+    
+    }
+.atractor{
+    font-size: 1.5em;
+    text-align:center
+    
+}
+.intro{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+.credits{
+    display: grid;
+  grid-template-columns: 1fr ;
+  
+    margin:2%;
+  padding:2%;
+  border:1px solid #000;
+  
+}
+.featured{
+    display: grid;
+    grid-template-columns: 1fr ;
+  margin:2%;
+  padding:2%;
+  border:1px solid #000;
+  
+}
+.site-footer{
+     display: grid;
+  grid-template-columns: 1fr ;
+  margin:2%;
+  padding:2%;
+  border:1px solid #000;
+  
+}
+
+/*retrivial page*/
+
+
+.Why-is-it-Effective{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    }
+
+.WhyisitEffective{
+     margin:2%;
+  padding:2%;
+  border:1px solid #000;
+    }
+
+     
+    
+    
+  
+
+
+     
+
+
+
+
+/*about page*/
+
+.About-This-Site{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+
+}
+.AboutThisSite{
+    margin:2%;
+  padding:2%;
+  border:1px solid #000;
+}
+/* h2{*/
+    text-align: center;
 }
