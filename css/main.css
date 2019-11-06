@@ -43,6 +43,7 @@ h1 {
   margin: 0 0 0.5em 0;
   text-align:center;
 font-family: 'Montserrat', sans-serif;
+    
 
 
 }
@@ -80,30 +81,49 @@ h6 {
   text-transform: uppercase;
 }
 
-.nav li{
-    display: inline;
-    padding-right: 20px;
-    float: left;
-    font-size: 1.5em;
-    }
-.nav ul{
-    padding-left: 0;
-    margin-left: 0;
-    background-color: #0db9f2;
-    float: left;
+.nav ul
+{
+    padding-left: 30;
+    margin-left: 20;
+    background-color: #036;
+    color: White;
+    float: right;
     width: 100%;
-    font-family: arial, helvetica, sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
-.nav ul li a: hover{
+.nav ul li { 
+    display: inline; 
+}
+
+.nav ul li a
+{
+    padding: 0.5em 1em;
+    background-color: #036;
+    color: White;
+    text-decoration: none;
+    float: right;
+    border-right: 1px solid #fff;
+}
+
+.nav ul li a:hover
+{
     background-color: #369;
     color: #fff;
 }
+
+/* change current item to be the highlighted rollover color */
 .nav ul li a.current {
     background-color: #369;
     color: #fff;
 }
+
+/* NOTE: to be save add the following to the block element right after the Nav in your HTML. Change .WhateverNextElementIs to a selector for the element. */
+
+.explanation {
+    clear: both;
+}
+
    
 .StudySkills{
     display: grid;
@@ -118,8 +138,9 @@ h6 {
 }
 
 .tagline{
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align:center;
+    font-family: cursive
     
     }
 .atractor{
@@ -133,20 +154,20 @@ h6 {
     text-align:center;
 }
 .credits{
-    display: grid;
-  grid-template-columns: 1fr ;
+/*    display: grid;*/
+/*  grid-template-columns: 1fr ;*/
   
-    margin:2%;
-  padding:2%;
-  border:1px solid #000;
+/*    margin:2%;*/
+/*  padding:2%;*/
+/*  border:1px solid #000;*/
   
 }
 .featured{
-    display: grid;
-    grid-template-columns: 1fr ;
-  margin:2%;
-  padding:2%;
-  border:1px solid #000;
+/*    display: grid;*/
+/*    grid-template-columns: 1fr ;*/
+/*  margin:2%;*/
+/*  padding:2%;*/
+/*  border:1px solid #000;*/
   
 }
 .site-footer{
