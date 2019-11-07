@@ -1,120 +1,135 @@
 /* Optional, include a web font  */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,500,500i,600,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
 /* The html and body selectors below set the base font for the entire page */
-html {font-size: 1em;}
+html {
+    font-size: 1em;
+}
 
 
 body {
-  font-family: font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #333;
-  background-color:aliceblue;
+    font-family: font-family: 'Montserrat', sans-serif;;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333;
+    background-color: aliceblue;
     padding: 4em;
     
 
-  
-/*   there are other ways to do this but it's good to remember not to let text run right up to the edge of borders or color changes, images etc.' */
-/*   padding: 1em; */
+
+
+    /*   there are other ways to do this but it's good to remember not to let text run right up to the edge of borders or color changes, images etc.' */
+    /*   padding: 1em; */
 }
 
 /* This adds space between paragraphs and list items
    NOTE: most Navigations use list items so you will need to 
    explicity set the margins on those so this rule doesn't 
    mess up your navigation styling */
-p, li {
-  margin-top: 0;
-  margin-bottom: 1em;
+p{
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Base Styling for headings  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* For each of your headings at minimum set the margin, size, line-height. Adjust font-weight and other properties as needed. */
 
 h1 {
-  font-size: 4em;
-  line-height: ;
-  margin: 0 0 0.5em 0;
-  text-align:center;
-font-family: 'Montserrat', sans-serif;
-    
+    font-size: 4em;
+    line-height: ;
+    margin: 0 0 0.5em 0;
+  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #207e93;
+
 
 
 }
 
 h2 {
-  font-size: 3em;
-  line-height: 1.2;
-  margin: 1.5em 0 0.5em 0;
+    font-size: 3em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: center;
 }
 
 h3 {
-  font-size: 2.25em;
-  line-height: 1;
-  margin: 1.5em 0 0.25em 0;
+    font-size: 2.25em;
+    line-height: 1;
+    margin: 1.5em 0 0.25em 0;
 }
 
 h4 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin: 1.5em 0 0.5em 0;
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 1.5em 0 0.5em 0;
 }
 
 h5 {
-  font-size: 1em;
-  line-height: 1;
-  margin: 1.5em 0 0.5em 0;
-  
+    font-size: 1em;
+    line-height: 1;
+    margin: 1.5em 0 0.5em 0;
+
 }
 
 h6 {
-  font-size: 1em;
-  line-height: 1.5;
-  margin: 1em 0 0 0;
-  font-weight: 400; /* normal */
-  text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 1em 0 0 0;
+    font-weight: 400;
+    /* normal */
+    text-transform: uppercase;
 }
 
-.nav ul
-{
+.nav ul {
     padding-left: 30;
     margin-left: 20;
-    background-color: #036;
+    background-color: #207e93;
     color: White;
     float: right;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav ul li { 
-    display: inline; 
+.nav ul li {
+    display: inline;
 }
 
-.nav ul li a
-{
+.nav ul li a {
     padding: 0.5em 1em;
-    background-color: #036;
+    background-color: #207e93;
     color: White;
     text-decoration: none;
     float: right;
-    border-right: 1px solid #fff;
+/*    border-right: 1px solid #fff;*/
 }
 
-.nav ul li a:hover
-{
-    background-color: #369;
-    color: #fff;
+.nav ul li a:hover {
+    background-color: #207e93;
+    color: #207e93;
 }
 
 /* change current item to be the highlighted rollover color */
 .nav ul li a.current {
-    background-color: #369;
+    background-color: #207e93;
     color: #fff;
 }
 
@@ -124,99 +139,170 @@ h6 {
     clear: both;
 }
 
-   
-.StudySkills{
-    display: grid;
-  grid-template-columns: 1fr 1fr 1fr  ;
-  grid-gap: 10px;
-  
-}
-.skills{
-  margin:2%;
-  padding:2%;
-  border:1px solid #000;
+.Smart-title{
+font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
 }
 
-.tagline{
-    font-size: 3.5em;
-    text-align:center;
-    font-family: cursive
+
+.StudySkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.skills {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #000;
+}
     
+.skills--title{
+   font-size: 2rem;
+  text-align: center;
+    font-weight: 700;
     }
-.atractor{
-    font-size: 1.5em;
-    text-align:center
+
+.skill--text{
+    font-size: 1.5em
     
 }
-.intro{
+
+.tagline {
+    font-size: 3em;
+    text-align: center;
+    font-family:inherit;
+    font-weight: 500;
+        
+}
+
+.atractor {
     font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: grid;
+    grid-template-columns: 1fr;
+    margin: 2%;
+    padding: 2%;
+    border-style: outset;
+
 }
-.credits{
-/*    display: grid;*/
-/*  grid-template-columns: 1fr ;*/
-  
-/*    margin:2%;*/
-/*  padding:2%;*/
-/*  border:1px solid #000;*/
-  
+
+.intro {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    grid;
+    grid-template-columns: 1fr;
+    margin: 2%;
+    padding: 2%;
+    border-style: outset;
+    }
+
+    
+.credit-text{
+    font-size: 1.5em
 }
-.featured{
-/*    display: grid;*/
-/*    grid-template-columns: 1fr ;*/
-/*  margin:2%;*/
-/*  padding:2%;*/
-/*  border:1px solid #000;*/
-  
+.credit-title{
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align:left;
 }
-.site-footer{
-     display: grid;
-  grid-template-columns: 1fr ;
-  margin:2%;
-  padding:2%;
-  border:1px solid #000;
-  
+.feature-text{
+    font-size: 1.5em
+    }
+
+.featured-title{
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align:left;
+}
+
+.site-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: .5%;
+    padding: .5%;
+    border: 1px solid #000;
+    background-color: #207e93;
+    
+
+
 }
 
 /*retrivial page*/
 
 
-.Why-is-it-Effective{
+.Why-is-it-Effective {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
-    }
+    grid-template-columns: 1fr 1fr;
 
-.WhyisitEffective{
-     margin:2%;
-  padding:2%;
-  border:1px solid #000;
-    }
+}
 
-     
-    
-    
-  
+.WhyisitEffective {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #000;
+}
 
+.retrivial-title{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
+}
+.whatItis-text{
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: grid;
+    grid-template-columns: 1fr;
+    margin: 2%;
+    padding: 2%;
+    border-style: outset;
 
-     
+}
+a{
+  color: black;
+  border-bottom: 1px solid #0033ff;
+}
+a, a:visited, a:hover{
+  text-decoration: none;
+}
+a:hover{
+  color: #005599;
+    border-bottom: 1px solid #005599;
+}
+a:visited{
+  color: #880099;
+    border-bottom: 1px solid #880099;}
 
 
 
 
 /*about page*/
 
-.About-This-Site{
+.About-This-Site {
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
+.AboutThisSite {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #000;
 }
-.AboutThisSite{
-    margin:2%;
-  padding:2%;
-  border:1px solid #000;
+.AboutThisSite-title{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
 }
+.FeaturedSkill-title{
+   font-size: 2.5em;
+    font-weight: 500;
+    text-align:left; 
+}
+
 /* h2{*/
-    text-align: center;
-}
+text-align: center;
+
