@@ -1,0 +1,38 @@
+@supports (grid-area: auto) {
+
+    /* Css here for your base grid that applies to mobile devices */
+
+
+   @media (min-width: 600px){
+
+         /* this applies to mobile in landscape and some tablets in portrait */
+
+    }/*   end min-width 600 */
+
+
+
+    @media (min-width: 900px){
+
+          /* this applies to tablets */
+
+    }/*   end min-width 900 */
+
+
+
+    @media (min-width: 1200px){
+
+          /* this applies average laptops */
+
+    }/*   end min-width 1200 */
+
+
+
+    @media (min-width: 1800px){
+
+          /* this applies to large laptops and desktops */
+
+    }/*   end min-width 1800 */
+
+
+}
+/* end @supports */

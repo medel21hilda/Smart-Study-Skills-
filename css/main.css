@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: aliceblue;
-    padding: 4em;
+padding: 1em;
     
 
 
@@ -114,12 +114,12 @@ h6 {
 }
 
 .nav ul li a {
-    padding: 0.5em 1em;
+    padding: 0.6em 0.5em;
     background-color: #207e93;
     color: White;
     text-decoration: none;
     float: left;
-/*    border-right: 1px solid #fff;*/
+/*  border-right: 1px solid #fff;*/
 }
 
 .nav ul li a:hover {
@@ -178,23 +178,27 @@ font-weight: 700;
         
 }
 
+.atractor-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .atractor {
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
-    text-align: grid;
-    grid-template-columns: 1fr;
-    margin: 2%;
+    font-size: 1.7em;
+   font-family: 'Quicksand', sans-serif;
+   text-align: center;
+/*   grid-template-columns: 1fr;*/
+   margin: 2%;*
     padding: 2%;
-    border-style: outset;
+   border-style: outset;
 
 }
 
 .intro {
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 1.7em;
+   font-family: 'Quicksand', sans-serif;
     text-align: center;
     grid;
-    grid-template-columns: 1fr;
+/*    grid-template-columns: 1fr;*/
     margin: 2%;
     padding: 2%;
     border-style: outset;
