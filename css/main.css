@@ -53,7 +53,7 @@ h6 {
 /* For each of your headings at minimum set the margin, size, line-height. Adjust font-weight and other properties as needed. */
 
 h1 {
-    font-size: 4em;
+    font-size: 6em;
     line-height: ;
     margin: 0 0 0.5em 0;
   text-align: center;
@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.25em;
+    font-size: 4em;
     line-height: 1;
     margin: 1.5em 0 0.25em 0;
 }
@@ -160,9 +160,11 @@ font-weight: 700;
 }
     
 .skills--title{
-   font-size: 2rem;
+   font-size: 4rem;
   text-align: center;
-    font-weight: 700;
+    font-weight: 200;
+    color: #207e93;
+    color:
     }
 
 .skill--text{
@@ -171,10 +173,11 @@ font-weight: 700;
 }
 
 .tagline {
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
     font-family:inherit;
-    font-weight: 500;
+    font-weight: 200;
+    color:  #207e93
         
 }
 
@@ -183,25 +186,25 @@ font-weight: 700;
     grid-template-columns: 1fr 1fr;
 }
 .atractor {
-    font-size: 1.7em;
+    font-size: 3em;
    font-family: 'Quicksand', sans-serif;
    text-align: center;
-/*   grid-template-columns: 1fr;*/
+/*grid-template-columns: 1fr;*/
    margin: 2%;*
     padding: 2%;
-   border-style: outset;
+/*    border-style: double*/
 
 }
 
 .intro {
-    font-size: 1.7em;
+    font-size: 3em;
    font-family: 'Quicksand', sans-serif;
     text-align: center;
     grid;
 /*    grid-template-columns: 1fr;*/
     margin: 2%;
     padding: 2%;
-    border-style: outset;
+/*    border-style: double*/
     }
 
     
@@ -239,7 +242,7 @@ font-weight: 700;
 
 
 .Why-is-it-Effective {
-    display: grid;
+/*    display: grid;*/
     grid-template-columns: 1fr 1fr;
 
 }
@@ -255,6 +258,14 @@ font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
 }
+.Elaboration-title{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
+
+}
+
+
 .whatItis-text{
     font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
@@ -286,15 +297,15 @@ a:visited{
 /*about page*/
 
 .About-This-Site {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
     
 }
 
 .AboutThisSite {
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid #000;
+/*    margin: 2%;*/
+/*    padding: 2%;*/
+/*    border: 1px solid #000;*/
 }
 .AboutThisSite-title{
     font-weight: 700;
