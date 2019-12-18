@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: aliceblue;
-padding: 1em;
+/*    padding: 1em;*/
     
 
 
@@ -226,9 +226,9 @@ font-weight: 700;
 .site-footer {
     display: grid;
     grid-template-columns: 1fr;
-    margin: .5%;
-    padding: .5%;
-    border: 1px solid #000;
+/*    margin: .5%;*/
+/*    padding: .5%;*/
+/*    border: 1px solid #000;*/
     background-color: #207e93;
     
 
@@ -310,3 +310,20 @@ a:visited{
 /* h2{*/
 text-align: center;
 
+mg,video{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
