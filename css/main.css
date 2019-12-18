@@ -183,28 +183,32 @@ font-weight: 700;
 
 .atractor-style{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+
 }
 .atractor {
-    font-size: 3em;
-   font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+/*   font-family: 'Quicksand', sans-serif;*/
    text-align: center;
-/*grid-template-columns: 1fr;*/
+grid-template-columns: 1fr;
    margin: 2%;*
     padding: 2%;
-/*    border-style: double*/
+/* border-style:dotted;*/
+/*    border: 2px solid grey;*/
+    font-family: sans-serif;
 
 }
 
 .intro {
-    font-size: 3em;
+    font-size: 2em;
    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    text-align: left;
     grid;
-/*    grid-template-columns: 1fr;*/
+   grid-template-columns: 1fr;
     margin: 2%;
     padding: 2%;
-/*    border-style: double*/
+ border-style: dotted;
+ border: 2px dotted light grey;
     }
 
     
@@ -241,16 +245,16 @@ font-weight: 700;
 /*retrivial page*/
 
 
-.Why-is-it-Effective {
+/*.Why-is-it-Effective {*/
 /*    display: grid;*/
-    grid-template-columns: 1fr 1fr;
+/*grid-template-columns: 1fr 1fr;*/
 
 }
 
-.WhyisitEffective {
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid #000;
+/*.WhyisitEffective {*/
+/*    margin: 2%;*/
+/*    padding: 2%;*/
+/*    border: 1px solid #000;*/
 }
 
 .retrivial-title{
@@ -321,10 +325,29 @@ a:visited{
 /* h2{*/
 text-align: center;
 
-mg,video{
+img,video{
   width: auto;
   height: auto;
   max-width: 100%;
+}
+
+.dowloads-title{
+    font-size:2em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: ;
+}
+.Podcastsandwebsites-title{
+  font-size:2em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: ;
+}
+.video-title{
+    font-size:2em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: ;
 }
 
 @font-face {
