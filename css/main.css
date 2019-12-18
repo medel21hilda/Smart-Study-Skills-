@@ -100,7 +100,7 @@ h5 {
     margin: 1.5em 0 0.5em 0;
 
 }
-
+/*home page*/============================
 h6 {
     font-size: 1em;
     line-height: 1.5;
@@ -178,8 +178,9 @@ font-weight: 700;
     color:
     }
 
-.skills-title a{
-    text-decoration:none;
+.skills--title a{
+    text-decoration-line: none;
+    color: #207e93;
 
 }
 
@@ -286,7 +287,8 @@ div.icon{
 .retrivial-title{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    color: #207e93;
+color: #207e93;
+
 }
 .Elaboration-title{
     font-weight: 700;
