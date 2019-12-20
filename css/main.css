@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,500,500i,600,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
 /* The html and body selectors below set the base font for the entire page */
 html {
     font-size: 1em;
@@ -89,7 +100,7 @@ h5 {
     margin: 1.5em 0 0.5em 0;
 
 }
-
+/*home page*/============================
 h6 {
     font-size: 1em;
     line-height: 1.5;
@@ -167,6 +178,12 @@ font-weight: 700;
     color:
     }
 
+.skills--title a{
+    text-decoration-line: none;
+    color: #207e93;
+
+}
+
 .skill--text{
     font-size: 1.5em
     
@@ -237,12 +254,22 @@ grid-template-columns: 1fr;
 /*    padding: .5%;*/
 /*    border: 1px solid #000;*/
     background-color: #207e93;
-    
-
 
 }
 
-/*retrivial page*/
+
+/*home page icons;*/
+.home .material-icons{
+    font-size: 15rem;
+    color: blue;
+/*    display: inline;*/
+    width:1px;
+}
+div.icon{
+    text-align: center;
+}
+
+/* ======================= retrivial page ========================*/
 
 
 /*.Why-is-it-Effective {*/
@@ -260,7 +287,8 @@ grid-template-columns: 1fr;
 .retrivial-title{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    color: #207e93;
+color: #207e93;
+
 }
 .Elaboration-title{
     font-weight: 700;
@@ -350,14 +378,4 @@ img,video{
     text-align: ;
 }
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-}
+
