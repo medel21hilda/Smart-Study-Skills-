@@ -66,10 +66,10 @@ h1 {
 }
 
 h2 {
-   font-size: 3em;
-  line-height: 1.2;
- margin: 1.5em 0 0.5em 0;
-  text-align: center;
+    font-size: 3em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: center;
     color: #207e93;
 }
 
@@ -102,54 +102,60 @@ h6 {
 }
 
 /*navigation*/
-============================.nav ul {
-
-    padding-left: 40;
-    margin-left: 20;
-    background-color: #207e93;
-    color: White;
-    float: right;
+------------------------------------
+.nav ul {
+padding-left: 40%;
+ margin-left: 20%;
+ background-color: #207e93;
+   color: White;
+    float: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    grid-gap: 20px;
 
 
 }
-
-
 
 .nav ul li {
     display: inline;
+
 }
 
 .nav ul li a {
-    padding: 0.6em 0.5em;
+    padding: 1em 0.5em;
     background-color: #207e93;
     color: White;
     text-decoration: none;
     float: center;
-    /*     border-right: 1px solid #fff;*/
+    border-right: 1px solid #fff;
 
 }
 
 .nav ul li a:hover {
-    background-color: #207e93;
+    background-color: white;
     color: #207e93;
+
 }
 
 /* change current item to be the highlighted rollover color */
 .nav ul li a.current {
     background-color: #207e93;
     color: #fff;
+
+}
+
+.main-nav a {
+    text-decoration: none;
 }
 
 /* NOTE: to be save add the following to the block element right after the Nav in your HTML. Change .WhateverNextElementIs to a selector for the element. */
 
-.explanation {
-    clear: both;
+/*.explanation {*/
+/*    clear: both;*/
 }
-/*INDEX PAGE*/-------------------------------------------------
 
-.Smart-title {
+/*INDEX PAGE*/
+------------------------------------------------- .Smart-title {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
@@ -282,9 +288,8 @@ div.icon {
     text-align: center;
 }
 
-/*RETRIEVAL PAGE*/-----------------------------------------------------------
-
-
+/*RETRIEVAL PAGE*/
+-----------------------------------------------------------
 /*.Why-is-it-Effective {*/
 /*    display: grid;*/
 /*grid-template-columns: 1fr 1fr;*/
@@ -297,7 +302,7 @@ div.icon {
 /*    border: 1px solid #000;*/
 }
 
-.retrievial-title{
+.retrievial-title {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
@@ -364,9 +369,9 @@ a:visited {
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
 }
-/*ELABORATIOM PAGE*/-----------------------------------------------------------
 
-.Elaboration-title {
+/*ELABORATIOM PAGE*/
+----------------------------------------------------------- .Elaboration-title {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
