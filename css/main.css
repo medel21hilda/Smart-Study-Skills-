@@ -9,13 +9,14 @@ html {
 
 
 body {
-    font-family: font-family: 'Montserrat', sans-serif;;
+    font-family: font-family: 'Montserrat', sans-serif;
+    ;
     font-weight: 500;
     line-height: 1.5;
     color: #333;
     background-color: aliceblue;
-/*    padding: 1em;*/
-    
+    /*    padding: 1em;*/
+
 
 
 
@@ -27,7 +28,7 @@ body {
    NOTE: most Navigations use list items so you will need to 
    explicity set the margins on those so this rule doesn't 
    mess up your navigation styling */
-p{
+p {
     font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
 }
@@ -46,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -56,7 +57,7 @@ h1 {
     font-size: 6em;
     line-height: ;
     margin: 0 0 0.5em 0;
-  text-align: center;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     color: #207e93;
 
@@ -65,10 +66,11 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
-    line-height: 1.2;
-    margin: 1.5em 0 0.5em 0;
-    text-align: center;
+   font-size: 3em;
+  line-height: 1.2;
+ margin: 1.5em 0 0.5em 0;
+  text-align: center;
+    color: #207e93;
 }
 
 h3 {
@@ -98,27 +100,21 @@ h6 {
     /* normal */
     text-transform: uppercase;
 }
-/*navigation*/============================
 
+/*navigation*/
+============================.nav ul {
 
+    padding-left: 40;
+    margin-left: 20;
+    background-color: #207e93;
+    color: White;
+    float: right;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
 
-/*.nav ul {*/
-/*    padding-left: 30;*/
-/*    margin-left: 20;*/
-/*    background-color: #207e93;*/
-/*    color: White;*/
-/*    float: right;*/
-/*    width: 100%;*/
-/*    font-family: 'Montserrat', sans-serif;*/
-}
-.main nav{
-    display: grid;
-    grid-gap: 20px;
-    padding: 0;
-    list-style: none;
-    grid-template-columns: repeat(7,1fr);
 
 }
+
 
 
 .nav ul li {
@@ -130,8 +126,9 @@ h6 {
     background-color: #207e93;
     color: White;
     text-decoration: none;
-    float: left;
-/*  border-right: 1px solid #fff;*/
+    float: center;
+    /*     border-right: 1px solid #fff;*/
+
 }
 
 .nav ul li a:hover {
@@ -150,18 +147,19 @@ h6 {
 .explanation {
     clear: both;
 }
+/*INDEX PAGE*/-------------------------------------------------
 
-.Smart-title{
-font-weight: 700;
+.Smart-title {
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
 }
 
 
-.StudySkills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+/*.StudySkills {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
+/*    grid-gap: 10px;*/
 
 }
 
@@ -169,108 +167,122 @@ font-weight: 700;
     margin: 2%;
     padding: 2%;
     border: 1px solid #000;
+
 }
-    
-.skills--title{
-   font-size: 4rem;
-  text-align: center;
+
+.skills--title {
+    font-size: 2rem;
+    text-align: center;
     font-weight: 200;
     color: #207e93;
-    color:
-    }
 
-.skills--title a{
+}
+
+.skills--title a {
     text-decoration-line: none;
     color: #207e93;
 
 }
 
-.skill--text{
+.skill--text {
     font-size: 1.5em
-    
 }
 
 .tagline {
     font-size: 2em;
     text-align: center;
-    font-family:inherit;
+    font-family: inherit;
     font-weight: 200;
-    color:  #207e93
-        
+    color: #207e93;
+    text-shadow: 2px 2px #6a5acd;
 }
 
-.atractor-style{
+.atractor-style {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 50px 0px purple inset;
+
 
 }
+
 .atractor {
-    font-size: 2.5em;
-/*   font-family: 'Quicksand', sans-serif;*/
-   text-align: center;
-grid-template-columns: 1fr;
-   margin: 2%;*
+    font-size: 2.em;
+    /*   font-family: 'Quicksand', sans-serif;*/
+    /*    text-align: center;*/
+    grid-template-columns: 1fr;
+    margin: 2%;
     padding: 2%;
-/* border-style:dotted;*/
-/*    border: 2px solid grey;*/
-    font-family: sans-serif;
+    /*     border-style:dotted;*/
+    border: 2px solid grey;
+    */
+    /*    font-family: sans-serif;*/
+    font-family: serif;
+
 
 }
 
 .intro {
-    font-size: 2em;
-   font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    grid;
-   grid-template-columns: 1fr;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    /*    text-align: left;*/
+    display: grid grid-template-columns: 1fr;
     margin: 2%;
     padding: 2%;
- border-style: dotted;
- border: 2px dotted light grey;
-    }
+    /*    border-style: dotted;*/
+    border: 2px solid grey;
+    font-family: serif;
+}
 
-    
-.credit-text{
+
+.credit-text {
     font-size: 1.5em
 }
-.credit-title{
-    font-size: 2.5em;
-    font-weight: 500;
-    text-align:left;
-}
-.feature-text{
-    font-size: 1.5em
-    }
 
-.featured-title{
+.credit-title {
     font-size: 2.5em;
     font-weight: 500;
-    text-align:left;
+    text-align: left;
+}
+
+.feature-text {
+    font-size: 1.5em
+}
+
+.featured-title {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: left;
 }
 
 .site-footer {
     display: grid;
     grid-template-columns: 1fr;
-/*    margin: .5%;*/
-/*    padding: .5%;*/
-/*    border: 1px solid #000;*/
+    /*    margin: .5%;*/
+    /*    padding: .5%;*/
+    /*    border: 1px solid #000;*/
     background-color: #207e93;
 
 }
 
 
 /*home page icons;*/
-.home .material-icons{
+.home .material-icons {
     font-size: 15rem;
     color: blue;
-/*    display: inline;*/
-    width:1px;
+    /*    display: inline;*/
+    width: 1px;
 }
-div.icon{
+
+div.icon {
     text-align: center;
 }
 
-/* ======================= retrivial page ========================*/
+/*RETRIEVAL PAGE*/-----------------------------------------------------------
 
 
 /*.Why-is-it-Effective {*/
@@ -285,21 +297,20 @@ div.icon{
 /*    border: 1px solid #000;*/
 }
 
-.retrivial-title{
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-color: #207e93;
-
-}
-.Elaboration-title{
+.retrievial-title{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
+    font-size: 3em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: center;
 
 }
 
 
-.whatItis-text{
+
+.whatItis-text {
     font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     text-align: grid;
@@ -309,20 +320,27 @@ color: #207e93;
     border-style: outset;
 
 }
-a{
-  color: black;
-  border-bottom: 1px solid #0033ff;
+
+a {
+    color: black;
+    border-bottom: 1px solid #0033ff;
 }
-a, a:visited, a:hover{
-  text-decoration: none;
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
 }
-a:hover{
-  color: #005599;
+
+a:hover {
+    color: #005599;
     border-bottom: 1px solid #005599;
 }
-a:visited{
-  color: #880099;
-    border-bottom: 1px solid #880099;}
+
+a:visited {
+    color: #880099;
+    border-bottom: 1px solid #880099;
+}
 
 
 
@@ -330,53 +348,64 @@ a:visited{
 /*about page*/
 
 .About-This-Site {
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr 1fr;*/
-    
+    /*    display: grid;*/
+    /*    grid-template-columns: 1fr 1fr 1fr;*/
+
 }
 
 .AboutThisSite {
-/*    margin: 2%;*/
-/*    padding: 2%;*/
-/*    border: 1px solid #000;*/
+    /*    margin: 2%;*/
+    /*    padding: 2%;*/
+    /*    border: 1px solid #000;*/
 }
-.AboutThisSite-title{
+
+.AboutThisSite-title {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #207e93;
 }
-.FeaturedSkill-title{
-   font-size: 2.5em;
+/*ELABORATIOM PAGE*/-----------------------------------------------------------
+
+.Elaboration-title {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
+}
+
+
+.FeaturedSkill-title {
+    font-size: 2.5em;
     font-weight: 500;
-    text-align:left; 
+    text-align: left;
 }
 
 /* h2{*/
 text-align: center;
 
-img,video{
-  width: auto;
-  height: auto;
-  max-width: 100%;
+img,
+video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
-.dowloads-title{
-    font-size:2em;
-    line-height: 1.2;
-    margin: 1.5em 0 0.5em 0;
-    text-align: ;
-}
-.Podcastsandwebsites-title{
-  font-size:2em;
-    line-height: 1.2;
-    margin: 1.5em 0 0.5em 0;
-    text-align: ;
-}
-.video-title{
-    font-size:2em;
+.dowloads-title {
+    font-size: 2em;
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
     text-align: ;
 }
 
+.Podcastsandwebsites-title {
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: ;
+}
 
+.video-title {
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 1.5em 0 0.5em 0;
+    text-align: ;
+}
