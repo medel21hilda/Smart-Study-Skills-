@@ -15,13 +15,7 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: aliceblue;
-    /*    padding: 1em;*/
-
-
-
-
-    /*   there are other ways to do this but it's good to remember not to let text run right up to the edge of borders or color changes, images etc.' */
-    /*   padding: 1em; */
+/*     padding: 1em;*/
 }
 
 /* This adds space between paragraphs and list items
@@ -205,13 +199,13 @@ padding-left: 40%;
 
 .atractor-style {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     font-size: 1.5em;
     text-align: center;
     margin: 2%;
-    padding: 2%;
+    padding: 2em;
     border: 2px solid grey;
-    box-shadow: 0px 0px 50px 0px purple inset;
+    box-shadow: 0px 0px 50px 0px white inset;
 
 
 }
@@ -244,26 +238,46 @@ padding-left: 40%;
     font-family: serif;
 }
 
+                       /*CREDITS*/
 
-.credit-text {
-    font-size: 1.5em
+.credits {
+    font-size: 1em;
+    padding: 2em;
+    text-align: left;
+
+
 }
 
 .credit-title {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
+
+
 }
 
+                /*FEATURE     */
+
 .feature-text {
-    font-size: 1.5em
+    font-size: 1.5em;
+    padding: 2em;
+
 }
 
 .featured-title {
     font-size: 2.5em;
     font-weight: 500;
-    text-align: left;
+    text-align:center;
 }
+
+.FeaturedSkill-title {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1em;
+}
+
+                   /*FOOTER*/
 
 .site-footer {
     display: grid;
@@ -276,17 +290,9 @@ padding-left: 40%;
 }
 
 
-/*home page icons;*/
-.home .material-icons {
-    font-size: 15rem;
-    color: blue;
-    /*    display: inline;*/
-    width: 1px;
-}
 
-div.icon {
-    text-align: center;
-}
+
+
 
 /*RETRIEVAL PAGE*/
 -----------------------------------------------------------
@@ -300,6 +306,7 @@ div.icon {
 /*    margin: 2%;*/
 /*    padding: 2%;*/
 /*    border: 1px solid #000;*/
+
 }
 
 .retrievial-title {
@@ -310,21 +317,102 @@ div.icon {
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
     text-align: center;
+    }
 
+.retrievial-tagline{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: fantasy
+/*    font-weight: 0;*/
+    color:black ;
+/*    text-shadow: 0 2px #6a5acd;*/
+    padding: 1em;
 }
-
-
 
 .whatItis-text {
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
-    text-align: grid;
+    font-size: 2em;
+    font-family: "Montserrat', sans-serif;
+/*    text-align: grid;*/
     grid-template-columns: 1fr;
     margin: 2%;
-    padding: 2%;
+    padding: 2em;
     border-style: outset;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
 
 }
+
+.WhentoUseRetrievalPractice-text{
+    text-align: center;
+    padding: 2em;
+    font-size: 1.3em
+    }
+
+                  /*ELABORATION PAGE*/
+
+.Elaboration-atractor{
+    font-size: 3em;
+    padding:1em;
+    text-align: center;
+
+}
+
+.Elaboration-title {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #207e93;
+}
+
+.Whent-to-use{
+    text-align: center;
+    padding:2em;
+    color: darkcyan;
+    font-size:1.1em;
+}
+
+                  /*dual coding*/
+
+.Dual-Codingatractor{
+    font-size: 3em;
+    padding:1em;
+    text-align: center;
+}
+
+                  /*interleaving*/
+
+.Interleaving-atractor{
+    font-size: 3em;
+    padding:1em;
+    text-align: center;
+
+}
+.Whent-to-use-Interleaving{
+    text-align: center;
+    padding:2em;
+    color: darkcyan;
+    font-size:1.1em;
+
+}
+
+                   /*space practice*/
+.Spaced-Practice-atractor{
+    font-size: 3em;
+    padding:1em;
+    text-align: center;
+}
+
+.How-to-Use-Spaced-Practice{
+    padding: 2em;
+
+}
+
+
+
+
+
+
+                     /*LINKS*/
 
 a {
     color: black;
@@ -350,19 +438,19 @@ a:visited {
 
 
 
-/*about page*/
+/*about page*/--------------------------------------
 
 .About-This-Site {
     /*    display: grid;*/
     /*    grid-template-columns: 1fr 1fr 1fr;*/
 
 }
-
-.AboutThisSite {
-    /*    margin: 2%;*/
-    /*    padding: 2%;*/
-    /*    border: 1px solid #000;*/
+.AboutThisSite{
+font-size: 1.5em;
+    padding:1em;
+    text-align: center;
 }
+
 
 .AboutThisSite-title {
     font-weight: 700;
@@ -370,43 +458,43 @@ a:visited {
     color: #207e93;
 }
 
-/*ELABORATIOM PAGE*/
------------------------------------------------------------ .Elaboration-title {
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    color: #207e93;
-}
 
 
-.FeaturedSkill-title {
-    font-size: 2.5em;
-    font-weight: 500;
-    text-align: left;
-}
 
-/* h2{*/
-text-align: center;
 
-img,
-video {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-}
+
+
+                     /*DOWLOADS*/
 
 .dowloads-title {
     font-size: 2em;
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
-    text-align: ;
+    padding: 1em;
+
+    }
+.Downloads{
+    font-size: 1em;
+
+
+
+
 }
+
+
+                        /*PODCASTS*/
+
 
 .Podcastsandwebsites-title {
     font-size: 2em;
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
-    text-align: ;
+   padding: 1em;
+
 }
+
+
+                          /*VIDEOS*/
 
 .video-title {
     font-size: 2em;
@@ -414,3 +502,12 @@ video {
     margin: 1.5em 0 0.5em 0;
     text-align: ;
 }
+
+img,
+video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+
+
+
