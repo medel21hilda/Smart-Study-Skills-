@@ -98,14 +98,14 @@ h6 {
 /*navigation*/
 ------------------------------------
 .nav ul {
-padding-left: 40%;
- margin-left: 20%;
+padding-left: 0;
+ margin-left: 0;
  background-color: #207e93;
    color: White;
-    float: center;
+/*    float: center;*/
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    grid-gap: 20px;
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    grid-gap: 20px;*/
 
 
 }
@@ -116,10 +116,10 @@ padding-left: 40%;
 }
 
 .nav ul li a {
-    padding: 1em 0.5em;
+    padding: 0.4em;
     background-color: #207e93;
     color: White;
-    text-decoration: none;
+   text-decoration: none;
     float: center;
     border-right: 1px solid #fff;
 
@@ -144,8 +144,8 @@ padding-left: 40%;
 
 /* NOTE: to be save add the following to the block element right after the Nav in your HTML. Change .WhateverNextElementIs to a selector for the element. */
 
-/*.explanation {*/
-/*    clear: both;*/
+.explanation {
+   clear: both;
 }
 
 /*INDEX PAGE*/
@@ -320,13 +320,17 @@ padding-left: 40%;
     }
 
 .retrievial-tagline{
-    font-size: 1.7em;
+    font-size:1.3em;
     text-align: center;
     font-family: fantasy
 /*    font-weight: 0;*/
     color:black ;
 /*    text-shadow: 0 2px #6a5acd;*/
     padding: 1em;
+    margin:auto;
+
+
+
 }
 
 .whatItis-text {
@@ -352,9 +356,11 @@ padding-left: 40%;
                   /*ELABORATION PAGE*/
 
 .Elaboration-atractor{
-    font-size: 3em;
+    font-size: 1.5em;
     padding:1em;
     text-align: center;
+    margin: auto;
+
 
 }
 
@@ -374,17 +380,20 @@ padding-left: 40%;
                   /*dual coding*/
 
 .Dual-Codingatractor{
-    font-size: 3em;
+    font-size:1.3em;
     padding:1em;
     text-align: center;
+    margin: auto;
+
 }
 
                   /*interleaving*/
 
 .Interleaving-atractor{
-    font-size: 3em;
+    font-size:1.5em;
     padding:1em;
     text-align: center;
+    margin: auto
 
 }
 .Whent-to-use-Interleaving{
@@ -397,9 +406,10 @@ padding-left: 40%;
 
                    /*space practice*/
 .Spaced-Practice-atractor{
-    font-size: 3em;
+    font-size:1.3em;
     padding:1em;
     text-align: center;
+    margin: auto;
 }
 
 .How-to-Use-Spaced-Practice{
@@ -414,7 +424,7 @@ padding-left: 40%;
 
                      /*LINKS*/
 
-a {
+/*a {*/
     color: black;
     border-bottom: 1px solid #0033ff;
 }
