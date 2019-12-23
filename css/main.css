@@ -154,12 +154,7 @@ background-color: #207e93;
 /*.explanation {*/
    clear: both;
 }
-li {
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-size: 1.5em;
-    font-family: 'Quicksand', sans-serif;
-}
+
 
 
 /*INDEX PAGE*/
@@ -446,20 +441,26 @@ li {
 
 a,
 a:visited,
-a:hover {
+/*a:hover {*/
     text-decoration: none;
 }
 
-a:hover {
+/*a:hover {*/
     color: #005599;
     border-bottom: 1px solid #005599;
 }
 
-a:visited {
+/*a:visited {*/
     color: #880099;
     border-bottom: 1px solid #880099;
 }
 
+/*li {*/
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
 
 
 
