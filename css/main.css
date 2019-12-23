@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: font-family: 'Montserrat', sans-serif;
-    ;
     font-weight: 500;
     line-height: 1.5;
     color: #333;
@@ -98,14 +97,16 @@ h6 {
 /*navigation*/
 ------------------------------------
 .nav ul {
-padding-left: 0;
- margin-left: 0;
+padding:0;
+ margin: 0 auto;
  background-color: #207e93;
    color: White;
-/*    float: center;*/
-    width: 100%;
+    width: 80%;
+/* float: center;*/
+
 /*    font-family: 'Montserrat', sans-serif;*/
 /*    grid-gap: 20px;*/
+
 
 
 }
@@ -513,11 +514,13 @@ font-size: 1.5em;
     text-align: ;
 }
 
-img,
-video {
+
+.video {
     width: auto;
     height: auto;
     max-width: 100%;
+}
+
 
 
 
