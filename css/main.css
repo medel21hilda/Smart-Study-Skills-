@@ -98,19 +98,20 @@ color: White;
 /*width: 80%;*/
 /*float: center;*/
     grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
 
 
 
 }
 
 .nav ul li {
-display: inline;
+display: inline-block;
 
 }
 
 
 .nav ul li a {
- padding: 0.4em;
+ padding: 0.8em;
 background-color: #207e93;
    color: White;
  text-decoration: none;
@@ -118,10 +119,9 @@ background-color: #207e93;
   border-right: 1px solid #fff;
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
-
-
-
-
+    display: block;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:0.5em;
 }
 
 .nav ul li a:hover {
@@ -139,13 +139,20 @@ background-color: #207e93;
 
 .main-nav a {
     text-decoration: none;
-    font-size: em;
+    display:block;
+    grid-template-columns: repeat(4,1fr);
+
+
+
+
 }
 
+/*
 .nav{
    background-color: #207e93;
     display: grid;
     grid-template-columns: 1fr;
+*/
 
 }
 

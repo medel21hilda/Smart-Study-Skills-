@@ -97,11 +97,17 @@ end min-width 1200 @media (min-width: 1800px) {
 }
 
 .nav ul li{
-
+grid-template-columns: 1fr;
 }
 
 .nav ul{
+grid-template-columns: 1fr;
 
+
+}
+
+.nav ul li a {
+    grid-template-columns: 1fr;
 
 }
 
